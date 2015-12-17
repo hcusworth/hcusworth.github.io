@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+    body { background-color: palevioletred;
+        font-family: Helvetica, sans-serif;
+}
+
+.title {
+    position: absolute;
+    top:0;
+    margin-right: 35%;
+    margin-left: 30%;
+    top: 0;
+    bottom: 100%;
+        -webkit-transform: scale(0.6);
+}
+
+ul {
+    font-family: Helvetica, sans-serif;
+}
+
+.list-reset{
+    list-style: none;
+    position: fixed;
+    top: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: avenir, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+.grow { transition: all .4s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+div.slide-right {
+  width:100%;
+  overflow:hidden;
+  animation: 10s slide-right;
+}
+
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+tag {
+-moz-transition: all 1s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+}
+
+.sample#thin li {
+    color: #ffffff;
+    font: 100 92px/1 'Helvetica, sans-serif';
+    text-transform: uppercase;
+}
+
+
+    .column,
+    .columns {
+        /* this will make things a column */
+        float: left;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /**/
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
